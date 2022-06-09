@@ -36,9 +36,15 @@
 			<version>3.141.59</version>
 		</dependency>
 		<dependency>
-			<groupId>io.cucumber</groupId>
+            <groupId>io.cucumber</groupId>
+            <artifactId>cucumber-java</artifactId>
+            <version>6.11.0</version>
+        </dependency>
+		<dependency>
+			<groupId>info.cukes</groupId>
 			<artifactId>cucumber-java</artifactId>
-			<version>6.9.1</version>
+			<version>1.2.5</version>
+			<scope>test</scope>
 		</dependency>
 		<!-- https://mvnrepository.com/artifact/info.cukes/cucumber-jvm -->
 		<dependency>
